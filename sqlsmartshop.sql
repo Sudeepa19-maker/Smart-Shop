@@ -21,6 +21,7 @@ create table PRODUCTS
  
 alter table PRODUCTS
   add primary key (CODE) ;
+  
 ---------------------------------------
 -- Create table
 create table ORDERS
@@ -84,3 +85,10 @@ values ('S004', 'Oracle XML Parser', 120, sysdate);
  
 insert into products (CODE, NAME, PRICE, CREATE_DATE)
 values ('S005', 'CSharp Tutorial for Beginers', 110, sysdate);
+
+
+
+select * from ACCOUNTS;
+select * from PRODUCTS;
+select * from ORDERS;
+select * from ORDER_DETAILS;
